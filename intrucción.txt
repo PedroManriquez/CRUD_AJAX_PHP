@@ -1,0 +1,19 @@
+Instrucciones para ejecutar programa:
+
+en MySQL crear base de datos "crudphp"
+luego importar el dump "crudphp.sql"
+
+windows:
+	Luego copiar la carpeta completa a htdocs ubicada en la carpeta de xampp o wampp
+	Abrir el navegador y buscar mediante apache la carpeta del proyecto y abrir el index.php
+
+Linux
+	Copiar carpeta en /var/www/html/ (debe realizar con permisos de superusuario)
+	Abrir el navegador y buscar mediante apache la carpeta del proyecto y abrir el index.php
+
+
+***** Observación:
+
+El combobox de cargo se implemento en la creación de un nuevo contacto y también en la 
+actualización de uno de ellos, de modo que la vista en index.php solo muestra los registros
+actuales dentro del software.
